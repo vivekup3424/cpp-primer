@@ -1,4 +1,5 @@
-//every c++ program contains one or more functions,one 
+#include <stdio.h>
+
 int main(){
-    return 0;
+    printf("Hello, World\n");
 }
