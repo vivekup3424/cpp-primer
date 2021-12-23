@@ -2,19 +2,26 @@
 using namespace std;
 
 int main(int argc, char const *argv[])
-{
-    int x = 6, y= 2;
+{   int x;
+    cin >> x;
+    switch (x)
+    {
+    case 1:
+        cout << "x is 1\n";
+        break;
+    case 2:
+        cout << "x is 2\n";
+        break;
+    case 3:
+        cout << "x is 3\n";
+        break;
+    case 4:
+        cout << "x is 1\n";
+        break;
     
-    if (x > y)
-    {
-        cout << "x is greater than y\n";    
-    }
-    else if (y > x)
-    {
-        cout << "y is greater than x\n";
-    }
-    else {
-        cout << "x and y are equal\n";
+    default:
+    cout << "x is not 1,2,3 or 4.\n";
+        break;
     }
     return 0;
 }
